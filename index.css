@@ -2,15 +2,25 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url('Pic.jpg');
+    /* Center and cover the background image */
+    background-size: cover;
+    background-position: center;
+    /* Set a background color in case the image is not available */
+    background-color: #f8f8f8;
+    /* Set the font color */
+    color: #333;
+    /* Set font properties */
+    font-family: Arial, sans-serif;
 }
 
-
+a
 .login-container {
     background-color: white;
     padding: 20px;
@@ -60,3 +70,5 @@ h2 {
     text-align: center;
     margin-bottom: 20px;
 }
+
+    
